@@ -9,7 +9,7 @@ function cache() {
   if (username) {
     if (username === pass) {
       const url = new URL(window.location.href);
-      window.location.replace(`${url.origin}/passIt_login.html`);
+      window.location.replace(`${url.origin}/passIt_Auth/passIt_login.html`);
     }
   } else {
     localStorage.setItem(uname, pass);
